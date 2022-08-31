@@ -1,3 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+
 * {
+    margin: 0;
+}
+
+.header__content {
+    background-image: url(img/header-background.jpg);
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
     width: 1440px;
+    height: 800px;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 130px;
+}
+
+.havbar__link {
+    text-decoration: none;
+    color:  #FFFFFF;
+    margin: 39px;
+    font-family: Readex Pro, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.header__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 202px auto 32px
+}
+
+.title__element {
+    font-family: Readex Pro;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title__header {
+    font-family: Readex Pro;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 13px auto;
+}
+
+.title__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 18px;
+    gap: 10px;
+    width: 50px;
+    height: 15px;
+    background: #2B6F3E;
+    border-radius: 8px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.social__icon {
+    display: flex;
+    justify-content: center;
+}
+
+.social__icon img{
+    height: 32px;
+    padding: 0 22px;
 }
