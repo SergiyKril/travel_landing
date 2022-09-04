@@ -157,3 +157,35 @@
     font-size: 14px;
     line-height: 18px;
 }
+
+.discover {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 250px;
+    width: 928px;
+    height: 520px;
+}
+
+.discover img{
+    height: 400px;
+    width: 316px;
+}
+
+.discover__title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    color: #202020;
+    margin: 0 345px 40px;
+}
+
+.discover__options {
+    display: flex;
+    justify-content: space-between;
+}
