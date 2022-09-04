@@ -169,6 +169,7 @@
 .discover img{
     height: 400px;
     width: 316px;
+    padding: 0 16px;
 }
 
 .discover__title {
@@ -188,4 +189,33 @@
 .discover__options {
     display: flex;
     justify-content: space-between;
+}
+
+.options__name {
+    position: absolute;
+    margin: -70px 45px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px #000;
+}
+
+.options__location {
+    position: absolute;
+    margin: -50px 45px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px #000;
+
 }
